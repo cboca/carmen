@@ -9,5 +9,10 @@ $("document").ready(function() {
         }, 500);
 
      });
+
+    $(document).ready(function(){
+	  $('.bxslider').bxSlider({
+	  });
+	});
  
 });
