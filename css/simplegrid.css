@@ -22,7 +22,7 @@ body {
 }
 
 [class*='col-']:last-of-type {
-	padding-right: 0px;
+	padding-right: 20px;
 }
 
 .grid {
@@ -147,5 +147,9 @@ body {
 		margin-bottom: 10px;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	[class*='col-']:last-of-type {
+		padding-right: 0px;
 	}
 }
