@@ -111,7 +111,7 @@ a{
     background-color: #fff;
     border: 1px solid #bdc3c7;
     color:#888;
-    min-height: 207px;
+    min-height: 203px;
     position: relative;
 }
 
@@ -234,13 +234,8 @@ section ul li{
         margin: 20px 0 0 0px;
     }
 
-    section ul li{
-        display: inline;
-        padding-right: 40px;
-    }
-
     .circle{
-        top: -.5em;
+        top: .5em;
     }
 
     .about-me{
@@ -249,7 +244,7 @@ section ul li{
     }
 
     .logo-section{
-        height: 120px;
+        height: 180px;
         min-height: 10px;
     }
 
@@ -261,6 +256,10 @@ section ul li{
     .images{
         width:100%;
         padding:0;
+    }
+
+    [class*='col-']:last-of-type {
+        padding-right: 0px;
     }
 }
 
