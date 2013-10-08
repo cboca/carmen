@@ -16,6 +16,8 @@ body{
 	@include shift(1);
 	@include pad(20px);
 	margin-top: $vertical-spacing;
+	max-width:1100px;
+	min-width:1100px;
 }
 
 @mixin rounded-box{

@@ -1001,6 +1001,8 @@ body a {
   margin-left: 8.5298%;
   padding: 20px;
   margin-top: 40px;
+  max-width: 1100px;
+  min-width: 1100px;
   background-color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -1045,6 +1047,8 @@ body a {
   margin-left: 8.5298%;
   padding: 20px;
   margin-top: 40px;
+  max-width: 1100px;
+  min-width: 1100px;
   background-color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -1082,6 +1086,8 @@ body a {
   margin-left: 8.5298%;
   padding: 20px;
   margin-top: 40px;
+  max-width: 1100px;
+  min-width: 1100px;
   background-color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -1110,6 +1116,8 @@ body a {
   margin-left: 8.5298%;
   padding: 20px;
   margin-top: 40px;
+  max-width: 1100px;
+  min-width: 1100px;
   background-color: "";
   padding: 0;
 }
@@ -1175,6 +1183,8 @@ body a {
   margin-left: 8.5298%;
   padding: 20px;
   margin-top: 40px;
+  max-width: 1100px;
+  min-width: 1100px;
   background-color: white;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
