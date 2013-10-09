@@ -982,7 +982,11 @@ img.mfp-img {
 }
 
 body {
-  background: url(/imgs/background.jpg) no-repeat fixed;
+  background: url(/imgs/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   font-family: "Lato";
   color: #37393c;
   line-height: 36px;
@@ -1210,6 +1214,7 @@ body a {
 }
 #project-info .project-images img {
   margin-bottom: 20px;
+  border: 1px solid #c5c5c5;
 }
 #project-info .project-copy {
   display: block;

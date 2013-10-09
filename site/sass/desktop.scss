@@ -1,5 +1,10 @@
 body{
-	background: url(/imgs/background.jpg) no-repeat fixed;
+	background: url(/imgs/background.jpg) no-repeat center center fixed;
+	//background: url(/imgs/joshy_bdaycard5.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
 	font-family: "Lato";
 	color: $text-color;
 	line-height: $header-font-size;
@@ -140,6 +145,7 @@ body{
 
 		img{
 			margin-bottom: 20px;
+			border: 1px solid #c5c5c5;
 		}
 	}	
 
