@@ -100,9 +100,13 @@ body{
 
 	.work-item{
 		@include rounded-box;
-		@include span-columns(4 of 16);
-		@include omega(4);
-		@include pad(0);
+		//@include span-columns(4 of 16);
+		//@include omega(4);
+		//@include pad(0);
+		display: inline-block;
+		vertical-align: top;
+		width: 260px;
+		margin-right: 17px;
 		min-height: 300px;
 		margin-bottom: $vertical-spacing;
 		line-height: 30px;
@@ -131,6 +135,10 @@ body{
 			color: #888;
 		}
 
+	}
+
+	.work-item:nth-child(4){
+		margin-right:0;
 	}
 }
 
