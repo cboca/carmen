@@ -43,7 +43,7 @@ body{
 		font-weight: 900;
 
 		a{
-			color: $text-color;
+			color: $light-text-color;
 		}
 	}
 
@@ -64,31 +64,53 @@ body{
 }
 
 ////////// Home Page //////////////
-
-#about{
+#home-header-container{
 	@include container-section;
-	@include rounded-box;
 	@include pad(0);
-	color: $light-text-color;
-	@include pad(20);
+}
 
-	img{
-		@include span-columns(4 of 16, collapse);
+#home-header{
+	@include rounded-box;
+	@include pad(20);
+	position: relative;
+	@include span-columns(4 of 12);
+	height: 200px;	
+
+	header{
+		font-size: $header-font-size;
+		font-weight: 900;
+		color: $light-text-color;
 	}
 
-	p{
-		@include shift(4);
+	ul{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		position: absolute;
+		top: 80px !important;
+		left: 20px;
+		top: $header-font-size;
+		line-height: 30px;
+
+		li{
+			margin-left: 4px;
+		}
 	}
 }
 
-#work-header{
-	@include container-section;
+#about{
 	@include rounded-box;
+	color: $light-text-color;
+	@include pad(20);
+	@include span-columns(8 of 12, collapse);
+	padding-top: 12px;
 
-	header{
-		font-size: 22px;
-		font-weight: 900;
-		text-transform: uppercase;
+	p.about-quote{
+		font-size: 20px;
+	}
+
+	p{
+		line-height: 18px;
 	}
 }
 
